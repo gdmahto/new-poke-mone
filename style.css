@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.p{
+    text-align: center;
+    margin-top: 0;
+}
+.img-contain{
+    border: solid rebeccapurple;
+
+}
+.head{
+    position: fixed;
+}
+
+.h1{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    
+    text-decoration: line-through rebeccapurple;
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  z-index: 1000;
+  border: solid rgb(163, 238, 11) 3px;
+    
+}
+.video{
+    margin-top: 100px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+.p-first{
+    color: rgb(240, 0, 0);
+    text-decoration: underline rebeccapurple;
+    font-size: larger;
+    font-weight: bold;
+    
+    background-color: yellow;
+    flex-wrap: wrap;
+}
+.btn{
+    background-color: blue;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+}
